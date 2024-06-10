@@ -80,6 +80,7 @@ h6 {
   transition: all 0.5s;
   padding: 0 15px;
   background:rgb(0, 0, 0);
+  opacity: 0.7;
   /* background: hwb(0 43% 56%); */
   overflow-y: auto;
 }
@@ -123,8 +124,8 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background:  #1e0ab6;  
-  color: #fff;
+  background:  hsl(0, 0%, 100%);  
+  color: #030303;
   text-decoration: none;
 }
 
@@ -177,7 +178,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: hsl(0, 0%, 100%);
+  color:  hsl(186, 100%, 66%);
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -196,14 +197,14 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color:   #1e0ab6 ;
+  color:   hsl(0, 0%, 100%) ;
 }
 
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color:  #1e0ab6;
+  color:  hsl(0, 0%, 100%) ;
 }
 
 /* Mobile Navigation */
